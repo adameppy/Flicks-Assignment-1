@@ -13,7 +13,7 @@
 		68A09F541C59781500E061C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A09F521C59781500E061C2 /* LaunchScreen.storyboard */; };
 		68A09F5C1C59786000E061C2 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A09F5B1C59786000E061C2 /* MoviesViewController.swift */; };
 		68A09F5F1C59804100E061C2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A09F5E1C59804100E061C2 /* MovieCell.swift */; };
-		68A09F631C598DF800E061C2 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68A09F621C598DF800E061C2 /* README.txt */; };
+		68A09F631C598DF800E061C2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 68A09F621C598DF800E061C2 /* README.md */; };
 		877BBEC0DD0D9AF608269248 /* Pods_Flicks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A757858AD146A47E6A9D40 /* Pods_Flicks.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 		68A09F551C59781500E061C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68A09F5B1C59786000E061C2 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		68A09F5E1C59804100E061C2 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
-		68A09F621C598DF800E061C2 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		68A09F621C598DF800E061C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B9A757858AD146A47E6A9D40 /* Pods_Flicks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flicks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -55,7 +55,7 @@
 		68A09F3D1C59781500E061C2 = {
 			isa = PBXGroup;
 			children = (
-				68A09F621C598DF800E061C2 /* README.txt */,
+				68A09F621C598DF800E061C2 /* README.md */,
 				68A09F481C59781500E061C2 /* Flicks */,
 				68A09F471C59781500E061C2 /* Products */,
 				7422437B66A87E74E5F565F9 /* Pods */,
@@ -173,7 +173,7 @@
 			files = (
 				68A09F541C59781500E061C2 /* LaunchScreen.storyboard in Resources */,
 				68A09F511C59781500E061C2 /* Assets.xcassets in Resources */,
-				68A09F631C598DF800E061C2 /* README.txt in Resources */,
+				68A09F631C598DF800E061C2 /* README.md in Resources */,
 				68A09F4F1C59781500E061C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
