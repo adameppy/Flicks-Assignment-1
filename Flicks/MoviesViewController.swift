@@ -16,12 +16,14 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     
     var movies: [NSDictionary]?
     var endpoint: String!
+    var currentSelectedCell : UITableViewCell!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: "refreshControlAction:", forControlEvents: UIControlEvents.ValueChanged)
+        
         TableView.insertSubview(refreshControl, atIndex: 0)
         
     
@@ -149,6 +151,19 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         let detailViewController = segue.destinationViewController as! DetailViewController
         detailViewController.movie = movie
+        
+        cell.selectionStyle = .None
+        
+        let backgroundView = UIView()
+        backgroundView.backgroundColor = UIColor.cyanColor()
+        cell.selectedBackgroundView = backgroundView
+        if((currentSelectedCell) != nil){
+            let oldView = UIView()
+            oldView.backgroundColor = UIColor.whiteColor()
+            currentSelectedCell.selectedBackgroundView = oldView
+        }
+        currentSelectedCell  = cell
+        
         
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
